@@ -536,3 +536,4 @@ def write_fits(
             pass
 
     fits.HDUList([primary_hdu, table_hdu]).writeto(file, overwrite=overwrite)
+
